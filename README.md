@@ -1,4 +1,4 @@
-# CLC Wikipedia Bot
+# my wikipedia bot
 
 ### Installation:
 1. copy `settings/local_settings.example.py` to `settings/local_settings.py`
