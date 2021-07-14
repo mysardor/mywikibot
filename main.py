@@ -11,7 +11,7 @@ def start(message):
     
 @bot.message_handler(commands=['help'])
 def searching(message):
-    bot.reply_to(message,'Write down what to look for.')
+    bot.reply_to(message,'Use /search command to start searching')
 
 @bot.message_handler(content_types=['text'])
 def message_text(message):
