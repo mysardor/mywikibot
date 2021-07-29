@@ -2,12 +2,12 @@ from settings.local_settings import TELEGRAM_TOKEN
 from settings import *
 import requests
 import telebot
-
+import wikipedia
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.reply_to(message,'hello world')
+    bot.reply_to(message,'Hello')
     
 @bot.message_handler(commands=['help'])
 def searching(message):
